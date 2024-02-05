@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { todoReducer } from '../08-use-reducer/todoReducer';
+import { todoReducer } from './todoReducer';
 
 //INICIALIZA EL LOCAL STORAGE CON LO QUE TENIA EN ESE MOMENTO
 const init = () => {
